@@ -78,7 +78,11 @@
 ```bash
 # 创建虚拟环境（推荐）
 python -m venv venv
+<<<<<<< HEAD
 
+=======
+# Windows
+>>>>>>> 93cc1d5 (Initial project import.)
 venv\Scripts\activate
 
 # 安装依赖

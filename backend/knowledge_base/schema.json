@@ -1,0 +1,7 @@
+[
+  {
+    "table": "stock_data",
+    "columns": ["symbol", "price_change", "date", "close", "volume"],
+    "description": "股票行情表"
+  }
+]

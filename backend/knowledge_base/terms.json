@@ -1,0 +1,14 @@
+{
+  "涨势": {
+    "definition": "按涨跌幅排序",
+    "sql_mapping": "ORDER BY price_change DESC"
+  },
+  "中上游": {
+    "definition": "涨跌幅排名前30%",
+    "sql_mapping": "RANK() OVER (ORDER BY price_change DESC) AS rank, 过滤 rank <= 30%"
+  },
+  "上周": {
+    "definition": "过去7个交易日",
+    "sql_mapping": "date >= DATE_SUB(CURDATE(), INTERVAL 7 DAY)"
+  }
+}

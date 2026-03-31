@@ -1,0 +1,31 @@
+# 基于大模型的金融领域语义查询系统 - 后端依赖
+# Python 3.9+
+
+# Web 框架
+Flask==3.0.0
+Flask-CORS==4.0.0
+
+# 数据库
+SQLAlchemy==2.0.23
+PyMySQL==1.1.0
+redis==5.0.1
+
+# 大模型 / NLP
+ollama==0.1.6
+requests==2.31.0
+
+# SQL 校验
+sqlfluff==2.3.5
+
+# 图表生成
+plotly==5.18.0
+matplotlib==3.8.2
+pandas==2.1.4
+
+# 配置与环境
+python-dotenv==1.0.0
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# 工具
+python-dateutil==2.8.2
